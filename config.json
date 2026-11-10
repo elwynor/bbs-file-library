@@ -1,0 +1,7 @@
+{
+  "title": "Elwynor BBS File Library",
+  "accounts": ["elwynor", "SysopNetwork", "TheMajorBBS"],
+  "exclude_repos": ["elwynor/bbs-file-library", "elwynor/elwynor"],
+  "include_forks": false,
+  "releases_per_repo": 3
+}
