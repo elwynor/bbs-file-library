@@ -1,7 +1,148 @@
 {
-  "title": "Elwynor BBS File Library",
-  "accounts": ["elwynor", "SysopNetwork", "TheMajorBBS"],
-  "exclude_repos": ["elwynor/bbs-file-library", "elwynor/elwynor"],
-  "include_forks": false,
-  "releases_per_repo": 3
+ "title": "Elwynor BBS File Library",
+ "accounts": [
+  "elwynor",
+  "SysopNetwork",
+  "TheMajorBBS"
+ ],
+ "exclude_repos": [
+  "elwynor/bbs-file-library",
+  "elwynor/elwynor"
+ ],
+ "include_forks": false,
+ "releases_per_repo": 3,
+ "categories": [
+  "Games",
+  "Teleconference & Chat",
+  "Sysop Utilities",
+  "Menus & User Tools",
+  "Terminals & Clients",
+  "Developer & Platform",
+  "Adult",
+  "Needs category"
+ ],
+ "default_category": "Needs category",
+ "assignments": {
+  "elwge": "Games",
+  "elwtd": "Games",
+  "elwcards": "Games",
+  "elwbds": "Games",
+  "elwchr": "Games",
+  "elwpig": "Games",
+  "elwcraps": "Games",
+  "elwbr": "Games",
+  "elwwd": "Games",
+  "elwzr": "Games",
+  "elwkyr": "Games",
+  "BloX": "Games",
+  "MajorMUD": "Games",
+  "Fracture": "Games",
+  "elwalc2": "Games",
+  "elwep": "Games",
+  "elwand": "Games",
+  "elwfaz": "Games",
+  "elwcht": "Teleconference & Chat",
+  "elw8btel": "Teleconference & Chat",
+  "elwdctel": "Teleconference & Chat",
+  "galav": "Sysop Utilities",
+  "elwdmpst": "Sysop Utilities",
+  "elwanno": "Sysop Utilities",
+  "elwdipc": "Sysop Utilities",
+  "Total-IP-Control": "Sysop Utilities",
+  "BBS-Stats": "Sysop Utilities",
+  "elwwho": "Sysop Utilities",
+  "BBSFirewall": "Sysop Utilities",
+  "elwglob": "Sysop Utilities",
+  "TICKLER": "Sysop Utilities",
+  "galmm": "Menus & User Tools",
+  "elwafk": "Menus & User Tools",
+  "My-Time": "Menus & User Tools",
+  "DialSoft-HotKeys": "Menus & User Tools",
+  "galfv": "Menus & User Tools",
+  "elwbio": "Menus & User Tools",
+  "wdmaputl": "Menus & User Tools",
+  "UUTerm": "Terminals & Clients",
+  "TATerm": "Terminals & Clients",
+  "MMTerm": "Terminals & Clients",
+  "MBBS-Console": "Terminals & Clients",
+  "MBBSLauncher": "Terminals & Clients",
+  "MBBS-v10-module-SDK": "Developer & Platform",
+  "wbtrv32": "Developer & Platform",
+  "GHost3": "Developer & Platform",
+  "DialPHP": "Developer & Platform",
+  "NNTPImporter": "Developer & Platform",
+  "MBBS-v10": "Developer & Platform",
+  "dialdos": "Developer & Platform",
+  "The-Major-BBS-ISV-File-Libraries": "Developer & Platform",
+  "Better-Newsgroups": "Developer & Platform",
+  "elwerot": "Adult"
+ },
+ "keyword_rules": [
+  {
+   "category": "Games",
+   "words": [
+    "game",
+    "dice",
+    "cards",
+    "arena",
+    "battle",
+    "trivia",
+    "puzzle",
+    "tetris",
+    "mud"
+   ]
+  },
+  {
+   "category": "Teleconference & Chat",
+   "words": [
+    "teleconference",
+    "chat",
+    "lounge",
+    "pager"
+   ]
+  },
+  {
+   "category": "Terminals & Clients",
+   "words": [
+    "terminal",
+    "launcher",
+    "console",
+    "client"
+   ]
+  },
+  {
+   "category": "Sysop Utilities",
+   "words": [
+    "sysop",
+    "firewall",
+    "ip control",
+    "validator",
+    "announcer",
+    "stats",
+    "admin"
+   ]
+  },
+  {
+   "category": "Developer & Platform",
+   "words": [
+    "sdk",
+    "driver",
+    "library",
+    "importer",
+    "php",
+    "server",
+    "api"
+   ]
+  },
+  {
+   "category": "Menus & User Tools",
+   "words": [
+    "menu",
+    "viewer",
+    "user",
+    "time",
+    "hotkey"
+   ]
+  }
+ ]
 }
